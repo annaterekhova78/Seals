@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>"Профиль Марси "</title>
+    <meta name="description" content="Это страница о кошке Марси">
+    <link rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+        crossorigin="anonymous"
+    >
+    <style>
+        .buttonrow {
+            margin:auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Марси</h1>
+    <h2> Цвет - черный, вес - 4.4 кг, пол - ж </h2>
+    <p>
+        <img src ="https://sun9-9.userapi.com/c847123/v847123328/172349/YVqmCPH4gKQ.jpg" alt=" Фото кошки" widht ="400" height = "400"> 
+        <right>
+         Она любит играть, бегать и прыгать.
+         Доствать других котиков. 
+         Любит оченоь много спать. 
+         Она очень любима семьей.
+        </right>
+    </p>
+    <a href="rizhik.html"> Посмотреть профиль Рыжика </a>
+    <form>
+        <table>
+            <tr>
+                <div>
+                        <td><placeholderl for="name">Имя</placeholder></td>
+                        <td><input type="text" name="name"></placeholderl></td>
+                </div> 
+            </tr>
+            <tr>
+                <div>
+                        <td><placeholder for="name"> Возраст </placeholder></td>
+                        <td><input type="number" name="age" min="0" step="2"></td>
+                </div> 
+            </tr>
+            <tr>
+                <div>
+                        <td><span>Пол</span></td>
+                </div>
+            </tr>
+            <tr>
+                <div>
+                            <placeholder>
+                                <td><input type="radio" name="sex" value="мужской">мужской</td>
+                                <td><div class="radio-control male"></div></td>
+                            </placeholder>
+                 </div>   
+            </tr>
+            <tr>
+                <div>
+                        <placeholder>
+                                <td><input type="radio" name="sex" value="женский">женский</td>
+                                <td><div class="radio-control female"></div></td>
+                        </placeholder>
+                 </div> 
+            </tr>
+            <tr>
+                <div>
+                        <td><p> Описание : </p></td>
+                        <td><textarea rows="3" cols="40"></textarea></td>
+                </div>
+            </tr>
+            <tr>
+                <div class="buttonrow">
+                        <td><button type="submit">Отправить</button></td>
+                </div>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
