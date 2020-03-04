@@ -18,7 +18,7 @@
     <h1>Марси</h1>
     <h2> Цвет - черный, вес - 4.4 кг, пол - ж </h2>
     <p>
-        <img src ="https://sun9-9.userapi.com/c847123/v847123328/172349/YVqmCPH4gKQ.jpg" alt=" Фото кошки" widht ="400" height = "400"> 
+        <img src ="https://sun9-9.userapi.com/c847123/v847123328/172349/YVqmCPH4gKQ.jpg" alt=" Фото кошки" width ="400"> 
         <right>
          Она любит играть, бегать и прыгать.
          Доствать других котиков. 
@@ -30,34 +30,27 @@
     <form>
         <table>
             <tr>
-                 <td><placeholderl for="name">Имя</placeholder></td>
-                 <td><input type="text" name="name"></placeholderl></td>
+                 <td>Имя</td>
+                 <td><input type="text" name="name"></td>
             </tr>
             <tr>
-                 <td><placeholder for="name"> Возраст </placeholder></td>
+                 <td>Возраст</td>
                  <td><input type="number" name="age" min="0" step="2"></td>
             </tr>
             <tr>
-                 <td><span>Пол</span></td>
+                 <td colspan="2"><span>Пол</span></td>
             </tr>
             <tr>
-                 <placeholder>
-                     <td><input type="radio" name="sex" value="мужской">мужской</td>
-                     <td><div class="radio-control male"></div></td>
-                 </placeholder> 
-            </tr>
+                     <td colspan="2"><input type="radio" name="sex" value="мужской">мужской</td>
             <tr>
-                <placeholder>
-                     <td><input type="radio" name="sex" value="женский">женский</td>
-                     <td><div class="radio-control female"></div></td>
-                </placeholder>
+                     <td colspan="2"><input type="radio" name="sex" value="женский">женский</td>
             </tr>
             <tr>
                 <td><p> Описание : </p></td>
                 <td><textarea rows="3" cols="40"></textarea></td>
             </tr>
             <tr class="buttonrow">
-                 <td><button type="submit">Отправить</button></td>
+                 <td colspan="2"><button type="submit">Отправить</button></td>
             </tr>
         </table>
     </form>
